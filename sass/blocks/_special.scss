@@ -160,8 +160,6 @@
     max-height: 332px;
     height: 100%;
 
-    .modal__header-btn {}
-
     &::-webkit-scrollbar {
         width: 5px;
         background-color: #07484A;
@@ -231,4 +229,12 @@
     color: #07484A;
     border: none;
     outline: none;
+
+}
+
+
+@media only screen and (max-width:1024px) {
+    .special {
+        display: none;
+    }
 }

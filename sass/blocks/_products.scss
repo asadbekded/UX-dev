@@ -108,7 +108,9 @@
 }
 
 .products__btnBox {
+    display: block;
     text-align: center;
+    margin-top: 114px;
 }
 
 .products__btn {
@@ -119,6 +121,7 @@
 
 .progress {
     display: block;
+    max-width: 1565px !important;
     width: 100%;
     height: 7px;
     border-radius: 10px;
@@ -140,4 +143,25 @@
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+
+@media only screen and (max-width:580px) {
+    .products__item {
+        width: 100%;
+        max-width: 237px !important;
+    }
+
+    .products__productImg {
+        width: 89px !important;
+        height: 116px !important;
+    }
+
+    .products {
+        position: relative;
+        padding: 60px 0 100px 0;
+        background-image: url('../../images/products-back.png');
+        background-repeat: no-repeat;
+        background-size: 365px 434px;
+        background-position: calc(-180px) calc(330px);
+    }
 }

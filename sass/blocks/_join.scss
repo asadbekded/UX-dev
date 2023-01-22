@@ -109,6 +109,7 @@
 }
 
 @media only screen and (max-width:740px) {
+
   .join__right {
     text-align: center;
   }
@@ -121,5 +122,9 @@
   .join__emailInp {
     width: 288px;
     text-align: center;
+  }
+
+  .join__btn {
+    margin-bottom: 48px;
   }
 }

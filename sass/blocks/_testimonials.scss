@@ -99,7 +99,7 @@
 .progress {
     display: block;
     width: 100%;
-    max-width: 1380px;
+    max-width: 1338px !important;
     height: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -107,6 +107,7 @@
     background-image: linear-gradient(to right, #70908B, #70908B);
     background-repeat: no-repeat;
     background-size: 0 100%;
+    margin-bottom: 0 !important;
     transition: background-size .6s ease-in-out;
 }
 

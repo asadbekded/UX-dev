@@ -31,6 +31,11 @@ burgerBtn.addEventListener('click', function () {
 closeBtn.addEventListener('click', function () {
 	nav.style.display = 'none';
 });
+
+
+
+
+
 $(document).ready(function () {
 	var $slider = $('.slider');
 	var $progressBar = $('.progress');

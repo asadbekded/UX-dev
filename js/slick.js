@@ -6,6 +6,29 @@ $('.products-carousel').slick({
   autoplaySpeed: 500,
   prevArrow: '<button class="products__btn__left"><img src="../images/left.svg" alt="Left icon" width="40" height="40" /></button>',
   nextArrow: '<button class="products__btn__right"><img src="../images/right.svg" alt="Right icon" width="40" height="40" /></button>',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+      }
+    }
+  ]
 });
 
 $('.testimonials-box').slick({
