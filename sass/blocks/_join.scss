@@ -1,0 +1,70 @@
+.join__inner {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.join__inner {
+  background-color: #e0f6f1;
+}
+
+.join__title {
+  margin: 0 0 25px 0;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+  color: #07484a;
+}
+
+.join__text {
+  margin: 0 0 41px 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #07484a;
+}
+
+.join__emailInp {
+  margin: 0 0 41px 0;
+  padding: 16px 20px;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c4c4c4;
+  border: none;
+  outline: none;
+}
+
+.join__emailInp::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c4c4c4;
+}
+
+.join__btn {
+  max-width: 250px;
+  width: 100%;
+  padding: 20px 71px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fdfbf8;
+  background: #70908b;
+  border-radius: 6px;
+  border: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
