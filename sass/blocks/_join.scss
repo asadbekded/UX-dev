@@ -18,6 +18,7 @@
 }
 
 .join__text {
+  font-family: 'Roboto';
   margin: 0 0 41px 0;
   font-weight: 400;
   font-size: 24px;
@@ -52,19 +53,73 @@
   max-width: 250px;
   width: 100%;
   padding: 20px 71px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #fdfbf8;
-  background: #70908b;
-  border-radius: 6px;
-  border: none;
-  transition: 0.2s ease;
-  cursor: pointer;
+}
 
-  &:hover {
-    opacity: 0.9;
+@media only screen and (max-width:1024px) {
+  .join__inner {
+    gap: 40px;
+  }
+
+  .join__image {
+    max-width: 512px;
+    width: 100%;
+    height: 600px;
+  }
+
+  .join__title {
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 25px;
+    letter-spacing: 0.05em;
+  }
+
+  .join__text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 41px;
+  }
+
+  .join__emailInp {
+    margin-bottom: 41px;
+    border-bottom: 1px solid #000000;
+  }
+}
+
+
+
+@media only screen and (max-width:865px) {
+  .join__inner {
+    flex-direction: column;
+  }
+
+  .join__title {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .join__image {
+    max-width: 854px;
+    width: 100%;
+  }
+
+  .join__emailInp {
+    width: 688px;
+  }
+}
+
+@media only screen and (max-width:740px) {
+  .join__right {
+    text-align: center;
+  }
+
+  .join__text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .join__emailInp {
+    width: 288px;
+    text-align: center;
   }
 }
