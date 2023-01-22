@@ -1,11 +1,38 @@
+.benefits__section{
+    padding: 100px 0px 110px 0px;
+    background: #E0EFF6;
+}
 .benefits__title{
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 85px;
     color: #07484A;
+    text-align: center;
 }
 .benefits__list{
     padding: 0px;
     list-style: none;
+}
+.benefits__item{
+    width: 100%;
+    max-width: 290px;
+    text-align: center;
+}
+.item__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #07484A;
+    margin: 0px;
+    margin-bottom: 32px;    
+}
+.item__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #07484A;
+    margin: 0px;
 }
