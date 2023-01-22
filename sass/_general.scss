@@ -8,6 +8,9 @@ html {
 *::after {
   box-sizing: border-box;
 }
+img{
+    vertical-align:middle;
+}
 
 body {
   display: flex;
