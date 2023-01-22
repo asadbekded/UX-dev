@@ -1,5 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./slick/slick-theme.css" />
+		<link rel="stylesheet" href="./slick/slick.css" />
+		<title>Documen</title>
+	</head>
+
+	<body>
+		<!-- site-header -->
+		<header class="site-header">
+			<div class="container">
+				<div class="site-header__inner">
+					<a class="site-header__logo" href="./index.html">
+						<img
+							class="site-header__logo-img"
+							src="./images/logo-site.svg"
+							alt="Logotype"
+							width="144"
+							height="36"
+						/>
+					</a>
+					<nav class="site-header__nav">
+						<button class="close">X</button>
+						<ul class="site-header__list">
+							<li class="site-header__item">
+								<a class="site-header__link site-header__link--active" href="#"
+									>Home</a
+								>
+							</li>
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">Products</a>
+							</li>
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">Categories</a>
+							</li>
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">About</a>
+							</li>
+							<li class="site-header__item">
+								<a class="site-header__link" href="#">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+
+					<button class="burger-btn">
+						<span class="burger-btn__item"></span>
+						<span class="burger-btn__item"></span>
+						<span class="burger-btn__item"></span>
+					</button>
+
+					<ul class="site-header__icon-list">
+						<li class="site-header__icon-item">
+							<a class="site-header__icon-link" href="#">
+								<img
+									class="site-header__icon-img"
+									src="./images//search.svg"
+									alt="Search"
+									width="27"
+									height="27"
+								/>
+							</a>
+						</li>
+						<li class="site-header__icon-item">
+							<a class="site-header__icon-link" href="#">
+								<img
+									class="site-header__icon-img"
+									src="./images/shop.svg"
+									alt="Shop"
+									width="27"
+									height="27"
+								/>
+							</a>
+						</li>
+						<li class="site-header__icon-item">
+							<a class="site-header__icon-link account" href="#">
+								<img
+									class="site-header__icon-img"
+									src="./images/account.svg"
+									alt="Account"
+									width="26"
+									height="26"
+								/>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="site-header__hero">
+					<h1 class="site-header__hero-title">
+						Exclusive Deals of Furniture Collection
+					</h1>
+					<p class="site-header__hero-text">
+						Explore different categories. Find the best deals.
+					</p>
+					<button class="site-header__hero-btn">Shop Now</button>
+				</div>
+			</div>
+		</header>
+		<!-- /site-header -->
+		<main>
+			<!-- Category-section -->
+			<section class="category">
+				<div class="container">
+					<div class="category__inner">
+						<h2 class="category__title">Explore by Category</h2>
+						<div class="category__content">
+							<div class="category__menu">
+								<form class="category__menu-form" method="post">
+									<label class="category__menu-label">
+										<input
+											class="category__menu-inp"
+											type="text"
+											placeholder="search"
+										/>
+									</label>
+									<ul class="category__menu-list">
+										<li class="category__menu-item category__menu-item--active">
+											<h4 class="category__menu-title">Bedroom</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Dinning Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Meeting Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Workspace</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Living Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Kitchen</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Living Space</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Bedroom</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Dinning Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Meeting Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Workspace</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Living Room</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Kitchen</h4>
+										</li>
+										<li class="category__menu-item">
+											<h4 class="category__menu-title">Living Space</h4>
+										</li>
+									</ul>
+									<button class="category__menu-btn" type="submit">
+										All Categories
+									</button>
+								</form>
+							</div>
+							<div class="category__images">
+								<ul class="category__images-list">
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+									<li class="category__images-item">
+										<h4 class="category__images-title">Bedroom</h4>
+										<a class="category__images-link" href="#">Explore</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /Category-section -->
+		</main class='site-main'>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__inner"></div>
+			</div>
+		</footer>
+		<div class="modal">
+			<div class="modal__content">
+				<div class="modal__header">
+					<p class="modal__header-text">login</p>
+					<button class="modal__header-btn">&times;</button>
+				</div>
+				<div class="modal__body">
+					<form class="modal__body-form" method="post">
+						<label class="name-label">
+							<input
+								class="name-inp"
+								type="text"
+								name="user_name"
+								placeholder="User Name"
+							/>
+						</label>
+						<label class="password-label">
+							<input
+								class="password-inp"
+								type="password"
+								name="password"
+								placeholder="Password"
+							/>
+						</label>
+						<button class="modal__body-btn" type="submit">Log in</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="./js/main.js"></script>
+		<script src="./slick/jquery.min.js"></script>
+		<script src="./slick/slick.min.js"></script>
+	</body>
+</html>
+=======
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,19 +250,22 @@
   <title>Commerce</title>
 
   <link rel="stylesheet" href="./css/main.css" />
+  <title>Document</title
 </head>
-
 <body>
   <header>
     <div class="container">
+
       <div class="header__inner">
 
-        <div class="header_inner">
 
-        </div>
+      <div class="header_inner">
+
       </div>
+    </div>
   </header>
   <main>
+
     <section class="products">
       <div class="container">
         <div class="products__inner">
@@ -187,7 +431,7 @@
                 <button class="join__btn global-btn">Subscribe</button>
               </div>
             </form>
-    </section>
+
     <section class="creation__section">
       <div class="container">
         <div class="creation__content">
@@ -199,29 +443,26 @@
 
           <ul class="creation__list creation__carousel">
             <li class="creation__item">
-              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360"
-                height="537">
+              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360" height="537">
               <button type="button" class="creation__btn">Explore All Rooms</button>
             </li>
             <li class="creation__item">
-              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360"
-                height="537">
+              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360" height="537">
               <button type="button" class="creation__btn">Explore All Rooms</button>
             </li>
             <li class="creation__item">
-              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360"
-                height="537">
+              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360" height="537">
               <button type="button" class="creation__btn">Explore All Rooms</button>
             </li>
             <li class="creation__item">
-              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360"
-                height="537">
+              <img class="creation__img" src="./images/creation-nature.png" alt="creation nature img" width="360" height="537">
               <button type="button" class="creation__btn">Explore All Rooms</button>
             </li>
           </ul>
         </div>
       </div>
     </section>
+
     <section class="benefits__section">
       <div class="container">
         <div class="benefits__box">
@@ -243,7 +484,7 @@
                 Return policy
               </h3>
               <p class="item__text">
-                You can return a product
+                You can return a product 
                 within 30 days.
               </p>
             </li>
@@ -261,6 +502,7 @@
         </div>
       </div>
     </section>
+    
     <section class="testimonials__section">
       <div class="container">
         <div class="testimonials__content">
@@ -319,7 +561,7 @@
       </div>
     </section>
   </main>
-
+  
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
@@ -397,7 +639,6 @@
   <script defer src=".//slick-1.8.1/slick/slick.js"></script>
   <script defer src="./js/slick.js"></script>
   <script defer src="./js/main.js"></script>
-  <script defer src=".//slick-1.8.1/slick/slick.js"></script>
+  <script defer src=".//slick-1.8.1/slick/slick.js"></script>  
 </body>
-
 </html>
