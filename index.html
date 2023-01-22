@@ -102,7 +102,7 @@
 			</div>
 		</header>
 		<!-- /site-header -->
-		<main>
+	<main class="site-main">
 			<!-- Category-section -->
 			<section class="category">
 				<div class="container">
@@ -200,72 +200,6 @@
 				</div>
 			</section>
 			<!-- /Category-section -->
-		</main class='site-main'>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__inner"></div>
-			</div>
-		</footer>
-		<div class="modal">
-			<div class="modal__content">
-				<div class="modal__header">
-					<p class="modal__header-text">login</p>
-					<button class="modal__header-btn">&times;</button>
-				</div>
-				<div class="modal__body">
-					<form class="modal__body-form" method="post">
-						<label class="name-label">
-							<input
-								class="name-inp"
-								type="text"
-								name="user_name"
-								placeholder="User Name"
-							/>
-						</label>
-						<label class="password-label">
-							<input
-								class="password-inp"
-								type="password"
-								name="password"
-								placeholder="Password"
-							/>
-						</label>
-						<button class="modal__body-btn" type="submit">Log in</button>
-					</form>
-				</div>
-			</div>
-		</div>
-		<script src="./js/main.js"></script>
-		<script src="./slick/jquery.min.js"></script>
-		<script src="./slick/slick.min.js"></script>
-	</body>
-</html>
-=======
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./slick/slick-theme.css" />
-  <link rel="stylesheet" href="./slick/slick.css" />
-  <title>Commerce</title>
-
-  <link rel="stylesheet" href="./css/main.css" />
-  <title>Document</title
-</head>
-<body>
-  <header>
-    <div class="container">
-
-      <div class="header__inner">
-
-
-      <div class="header_inner">
-
-      </div>
-    </div>
-  </header>
-  <main>
-
     <section class="products">
       <div class="container">
         <div class="products__inner">
@@ -431,7 +365,8 @@
                 <button class="join__btn global-btn">Subscribe</button>
               </div>
             </form>
-
+</div>
+    </section>
     <section class="creation__section">
       <div class="container">
         <div class="creation__content">
@@ -462,7 +397,6 @@
         </div>
       </div>
     </section>
-
     <section class="benefits__section">
       <div class="container">
         <div class="benefits__box">
@@ -502,7 +436,6 @@
         </div>
       </div>
     </section>
-    
     <section class="testimonials__section">
       <div class="container">
         <div class="testimonials__content">
@@ -633,6 +566,35 @@
       </div>
     </div>
   </footer>
+	<div class="modal">
+		<div class="modal__content">
+			<div class="modal__header">
+				<p class="modal__header-text">login</p>
+				<button class="modal__header-btn">&times;</button>
+			</div>
+			<div class="modal__body">
+				<form class="modal__body-form" method="post">
+					<label class="name-label">
+						<input
+							class="name-inp"
+							type="text"
+							name="user_name"
+							placeholder="User Name"
+						/>
+					</label>
+					<label class="password-label">
+						<input
+							class="password-inp"
+							type="password"
+							name="password"
+							placeholder="Password"
+						/>
+					</label>
+					<button class="modal__body-btn" type="submit">Log in</button>
+				</form>
+			</div>
+		</div>
+	</div>
   <script defer src="./js/slick.js"></script>
   <script src="./slick/jquery.min.js"></script>
   <script src="./slick/slick.min.js"></script>

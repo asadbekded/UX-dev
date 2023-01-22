@@ -1,4 +1,3 @@
-
 const accaunt = document.querySelector('.account');
 const modal = document.querySelector('.modal');
 const modalClose = document.querySelector('.modal__header-btn');
@@ -33,28 +32,22 @@ closeBtn.addEventListener('click', function () {
 	nav.style.display = 'none';
 });
 $(document).ready(function () {
-    var $slider = $('.slider');
-    var $progressBar = $('.progress');
-    var $progressBarLabel = $('.slider__label');
+	var $slider = $('.slider');
+	var $progressBar = $('.progress');
+	var $progressBarLabel = $('.slider__label');
 
-    $slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        var calc = ((nextSlide) / (slick.slideCount - 1)) * 70;
+	$slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+		var calc = (nextSlide / (slick.slideCount - 1)) * 70;
 
-        $progressBar
-            .css('background-size', calc + '% 100%')
-            .attr('aria-valuenow', calc);
-        $progressBarLabel.text(calc + '% completed');
-    });
+		$progressBar
+			.css('background-size', calc + '% 100%')
+			.attr('aria-valuenow', calc);
+		$progressBarLabel.text(calc + '% completed');
+	});
 
-    $slider.slick({
-        slidesToShow: 4,
-        slidesToScroll: 20,
-        speed: 300
-    });
+	$slider.slick({
+		slidesToShow: 4,
+		slidesToScroll: 20,
+		speed: 300,
+	});
 });
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> c0a7f97b9a89ae97167486081065159c44295938
