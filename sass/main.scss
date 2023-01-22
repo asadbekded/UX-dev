@@ -1,5 +1,6 @@
-@import "fonts";
-@import "normolize";
-@import "general";
-@import "global";
-@import "./blocks/blocks";
+@import 'fonts';
+@import 'normolize';
+@import 'global';
+@import 'general';
+@import 'mixins';
+@import './blocks/blocks';
