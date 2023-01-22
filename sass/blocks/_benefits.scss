@@ -1,0 +1,124 @@
+.benefits__section{
+    padding: 100px 0px 110px 0px;
+    background: #E0EFF6;
+}
+.benefits__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #07484A;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+.benefits__list{
+    width: 100%;
+    max-width: 1348px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px;
+    list-style: none;
+    margin: 0px auto;
+}
+.benefits__item{
+    width: 100%;
+    max-width: 290px;
+    text-align: center;
+}
+.item__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #07484A;
+    margin: 0px;
+    margin-top: 32px;
+    margin-bottom: 32px;    
+}
+.item__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #07484A;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .benefits__title{
+        font-size: 48px;
+        line-height: 129%;
+    }
+    .item__title{
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .item__text{
+        font-size: 18px;
+        line-height: 128%;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .benefits__item{
+        width: 100%;
+        max-width: 240px;
+        text-align: center;
+    }
+    .benefits__title{
+        font-size: 48px;
+        line-height: 129%;
+    }
+    .item__title{
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .item__text{
+        font-size: 18px;
+        line-height: 128%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .benefits__item{
+        width: 100%;
+        max-width: 230px;
+        text-align: center;
+    } 
+    .benefits__title{
+        font-size: 46px;
+        line-height: 125%;
+    }
+    .item__title{
+        font-size: 22px;
+        line-height: 145%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .benefits__section{
+        padding: 80px 0px 30px 0px;
+        background: #E0EFF6;
+    }
+    .benefits__list{
+        display: block;
+    }
+    .benefits__item{
+        width: 100%;
+        max-width: 288px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 60px;
+    } 
+    .benefits__title{
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .item__title{
+        font-size: 24px;
+        line-height: 150%;
+    }
+}
