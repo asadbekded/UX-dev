@@ -1,0 +1,234 @@
+.special {
+    padding: 100px 0;
+}
+
+.special__title {
+    margin: 0 0 103px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+    color: #07484A;
+}
+
+.special__big {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.special__left {
+    max-width: 822px;
+    width: 100%;
+}
+
+.special__box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 32px 0 0 0;
+}
+
+.special__titleBox {
+    margin: 0 0 21px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #07484A;
+}
+
+.special__cost {
+    display: block;
+    margin: 21px 0 0 0;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__btn {
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.special__right {
+    max-width: 751px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.special__titleRight {
+    margin: 0 0 10px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+
+.special__textRight {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__select {
+    margin-bottom: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    border: none;
+    outline: none;
+}
+
+.special__list {
+    display: flex;
+    flex-direction: column !important;
+    gap: 32px;
+}
+
+.special__item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 697px;
+    width: 100%;
+}
+
+.special__boxItem {
+    padding: 34px 20px;
+    background: #E0F6F1;
+    border-radius: 10px;
+}
+
+.special__titleItem {
+    display: inline-block;
+    margin: 0 35px 24px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #07484A;
+}
+
+.special__ins {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__link {
+    display: block;
+    margin: 24px 0 0 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #07484A;
+}
+
+.special__lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-y: scroll;
+    max-height: 332px;
+    height: 100%;
+
+    .modal__header-btn {}
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #07484A;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #70908B;
+        outline: none;
+    }
+}
+
+
+
+.special__item {
+    margin-bottom: 34px;
+}
+
+.special__titleItems {
+    display: inline-block;
+    margin: 0 20px 14px 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__inss {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__starss {
+    display: block;
+}
+
+.special__text {
+    margin: 12px 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+}
+
+.special__links {
+    margin: 12px 0 0 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: -0.02em;
+    color: #07484A;
+    border: none;
+    outline: none;
+}

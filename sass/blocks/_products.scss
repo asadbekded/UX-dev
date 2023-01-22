@@ -1,0 +1,143 @@
+.products {
+    position: relative;
+    padding: 60px 0 100px 0;
+    background-image: url('../../images/products-back.png');
+    background-repeat: no-repeat;
+    background-size: 926px 1098px;
+    background-position: calc(-470px) calc(10px);
+}
+
+.products__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #07484a;
+    margin: 0 0 58px 0;
+}
+
+.products__list {
+    list-style: none;
+    margin: 0 0 54px 0;
+    padding: 0;
+}
+
+.products__item {
+    max-width: 430px !important;
+    width: 100%;
+    padding: 84px 40px 60px 40px;
+    background: #caf3e5;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.products__productImg {
+    margin: 0 auto 40px auto;
+}
+
+.products__box {
+    text-align: left;
+}
+
+.products__titleItem {
+    font-family: "Open Sans";
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #70908b;
+}
+
+.second {
+    background-color: #E0EFF6;
+}
+
+.third {
+    background-color: #EEEBFF;
+}
+
+.fourth {
+    background-color: #FFF4E7;
+}
+
+.products__text {
+    margin: 0 0 10px 0;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #70908b;
+}
+
+.products__cost {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #70908b;
+}
+
+
+.slick-track {
+    width: 0;
+}
+
+.slick-cloned,
+.products__item,
+.slick-slide {
+    margin-right: 32px;
+}
+
+
+.products__btn__left {
+    position: absolute;
+    bottom: -115px;
+    right: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.products__btn__right {
+    position: absolute;
+    bottom: -115px;
+    right: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.products__btnBox {
+    text-align: center;
+}
+
+.products__btn {
+    max-width: 265px;
+    width: 100%;
+    padding: 24px 38px;
+}
+
+.progress {
+    display: block;
+    width: 100%;
+    height: 7px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #07484A;
+    background-image: linear-gradient(to right, #70908BFF, #70908BFF);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size .4s ease-in-out;
+    margin-bottom: 114px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
